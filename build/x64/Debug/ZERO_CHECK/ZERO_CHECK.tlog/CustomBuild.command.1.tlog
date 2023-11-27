@@ -1,0 +1,10 @@
+^C:\СТОЛ\ФАЙЛЫ\УЧЁБА\ВУЗ\HOST\BUILD\CMAKEFILES\2B67F4E4E3CD4518CA00CFB48FEF12D9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Стол/Файлы/Учёба/Вуз/host -BC:/Стол/Файлы/Учёба/Вуз/host/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Стол/Файлы/Учёба/Вуз/host/build/first.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,9 @@
+C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/Experimental.dir
+C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/Nightly.dir
+C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/Continuous.dir
+C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/first.dir
+C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/PACKAGE.dir
+C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/RUN_TESTS.dir
+C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/ALL_BUILD.dir
+C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/ZERO_CHECK.dir
