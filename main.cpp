@@ -58,6 +58,7 @@ void Arifm::_probability_of_abc_creat() {
     probability_of_abc.resize(abc.size());
     mpf_t size;
     mpf_init_set_ui(size,text.size());
+    printf("Probility\n");
     for (int i = 0; i < abc.size(); ++i) {
         probability_of_abc[i].first=abc[i].first;
         mpf_init(probability_of_abc[i].second);
@@ -66,8 +67,9 @@ void Arifm::_probability_of_abc_creat() {
         mpf_div(probability_of_abc[i].second,buffer,size);
         mpf_clear(buffer);
         printf("%c",abc[i].first);
-        gmp_printf("[%.30Ff)\n",probability_of_abc[i].second);
+        gmp_printf(" -> %.30Ff\n",probability_of_abc[i].second);
     }
+    printf("\n");
     mpf_clear(size);
 }
 
@@ -107,9 +109,6 @@ void Arifm::_arithmetic_coding(){
     mpf_add(left,right,left);
     mpf_div_ui(left,left,2);
     gmp_printf("\n\nResult of decoding:    %.21Ff\n\n",left);
-    mp_exp_t exponent;
-    char* res=mpf_get_str (NULL, &exponent, 2, 21, left);
-    printf("Result of decoding in 2-nd system of calculating:    %s\n\n",res);
 }
 
 
@@ -127,9 +126,6 @@ int main(){
     host._abc_creat();
     host._probability_of_abc_creat();
     host._arithmetic_coding();
-
-    mpz_t g;
-    
     return 0;
 }
 

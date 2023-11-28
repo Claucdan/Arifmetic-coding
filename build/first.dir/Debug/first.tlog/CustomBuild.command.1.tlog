@@ -1,6 +1,6 @@
-^C:\СТОЛ\ФАЙЛЫ\УЧЁБА\ВУЗ\HOST\CMAKELISTS.TXT
+^C:\СТОЛ\ФАЙЛЫ\УЧЁБА\ВУЗ\ARIFMETIC-CODING\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Стол/Файлы/Учёба/Вуз/host -BC:/Стол/Файлы/Учёба/Вуз/host/build --check-stamp-file C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding -BC:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build --check-stamp-file C:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

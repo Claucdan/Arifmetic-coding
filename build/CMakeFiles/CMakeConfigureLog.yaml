@@ -24,9 +24,9 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      Сборка начата 26.11.2023 22:48:39.
+      Сборка начата 28.11.2023 11:11:22.
       
-      Проект "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      Проект "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
         Создание каталога "Debug\\".
         Создание каталога "Debug\\CompilerIdC.tlog\\".
@@ -40,13 +40,13 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Стол\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Стол\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Стол\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Стол\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe" "C:\\Стол\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Стол\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe" "C:\\Стол\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         "pwsh.exe" не является внутренней или внешней
         командой, исполняемой программой или пакетным файлом.
-        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Стол\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe" "C:\\Стол\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Стол\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe" "C:\\Стол\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Стол\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe" "C:\\Стол\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Стол\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe" "C:\\Стол\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -54,13 +54,13 @@ events:
       FinalizeBuildStatus:
         Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
         Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Сборка проекта "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      Сборка проекта "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
       
       Сборка успешно завершена.
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.95
+      Прошло времени 00:00:01.72
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -68,7 +68,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/3.28.0-rc5/CompilerIdC/CompilerIdC.exe
+        C:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build/CMakeFiles/3.28.0-rc5/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -86,9 +86,9 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      Сборка начата 26.11.2023 22:48:40.
+      Сборка начата 28.11.2023 11:11:24.
       
-      Проект "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      Проект "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
         Создание каталога "Debug\\".
         Создание каталога "Debug\\CompilerIdCXX.tlog\\".
@@ -102,13 +102,13 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Стол\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Стол\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Стол\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Стол\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Стол\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Стол\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Стол\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         "pwsh.exe" не является внутренней или внешней
         командой, исполняемой программой или пакетным файлом.
-        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Стол\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Стол\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Стол\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Стол\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Стол\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Стол\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Стол\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Стол\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -116,13 +116,13 @@ events:
       FinalizeBuildStatus:
         Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
         Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Сборка проекта "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      Сборка проекта "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
       
       Сборка успешно завершена.
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.75
+      Прошло времени 00:00:01.61
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -130,7 +130,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -141,8 +141,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/\u0421\u0442\u043e\u043b/\u0424\u0430\u0439\u043b\u044b/\u0423\u0447\u0451\u0431\u0430/\u0412\u0443\u0437/host/build/CMakeFiles/CMakeScratch/TryCompile-cb1edm"
-      binary: "C:/\u0421\u0442\u043e\u043b/\u0424\u0430\u0439\u043b\u044b/\u0423\u0447\u0451\u0431\u0430/\u0412\u0443\u0437/host/build/CMakeFiles/CMakeScratch/TryCompile-cb1edm"
+      source: "C:/\u0421\u0442\u043e\u043b/\u0424\u0430\u0439\u043b\u044b/\u0423\u0447\u0451\u0431\u0430/\u0412\u0443\u0437/Arifmetic-coding/build/CMakeFiles/CMakeScratch/TryCompile-xvqj32"
+      binary: "C:/\u0421\u0442\u043e\u043b/\u0424\u0430\u0439\u043b\u044b/\u0423\u0447\u0451\u0431\u0430/\u0412\u0443\u0437/Arifmetic-coding/build/CMakeFiles/CMakeScratch/TryCompile-xvqj32"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       VCPKG_APPLOCAL_DEPS: "ON"
@@ -152,31 +152,31 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/CMakeScratch/TryCompile-cb1edm'
+        Change Dir: 'C:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build/CMakeFiles/CMakeScratch/TryCompile-xvqj32'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_54642.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ff767.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.6.3+07e294721 for .NET Framework
-        Сборка начата 26.11.2023 22:48:41.
+        Сборка начата 28.11.2023 11:11:26.
         
-        Проект "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cb1edm\\cmTC_54642.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvqj32\\cmTC_ff767.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_54642.dir\\Debug\\".
-          Создание каталога "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cb1edm\\Debug\\".
-          Создание каталога "cmTC_54642.dir\\Debug\\cmTC_54642.tlog\\".
+          Создание каталога "cmTC_ff767.dir\\Debug\\".
+          Создание каталога "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvqj32\\Debug\\".
+          Создание каталога "cmTC_ff767.dir\\Debug\\cmTC_ff767.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_54642.dir\\Debug\\cmTC_54642.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_ff767.dir\\Debug\\cmTC_ff767.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54642.dir\\Debug\\\\" /Fd"cmTC_54642.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff767.dir\\Debug\\\\" /Fd"cmTC_ff767.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32537 для x64
           CMakeCCompilerABI.c
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54642.dir\\Debug\\\\" /Fd"cmTC_54642.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff767.dir\\Debug\\\\" /Fd"cmTC_ff767.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cb1edm\\Debug\\cmTC_54642.exe" /INCREMENTAL /ILK:"cmTC_54642.dir\\Debug\\cmTC_54642.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/CMakeScratch/TryCompile-cb1edm/Debug/cmTC_54642.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/CMakeScratch/TryCompile-cb1edm/Debug/cmTC_54642.lib" /MACHINE:X64  /machine:x64 cmTC_54642.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_54642.vcxproj -> C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cb1edm\\Debug\\cmTC_54642.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvqj32\\Debug\\cmTC_ff767.exe" /INCREMENTAL /ILK:"cmTC_ff767.dir\\Debug\\cmTC_ff767.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build/CMakeFiles/CMakeScratch/TryCompile-xvqj32/Debug/cmTC_ff767.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build/CMakeFiles/CMakeScratch/TryCompile-xvqj32/Debug/cmTC_ff767.lib" /MACHINE:X64  /machine:x64 cmTC_ff767.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ff767.vcxproj -> C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvqj32\\Debug\\cmTC_ff767.exe
         PostBuildEvent:
           setlocal
-          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Стол/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/CMakeScratch/TryCompile-cb1edm/Debug/cmTC_54642.exe -installedDir C:/Стол/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Стол/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build/CMakeFiles/CMakeScratch/TryCompile-xvqj32/Debug/cmTC_ff767.exe -installedDir C:/Стол/vcpkg/installed/x64-windows/debug/bin -OutVariable out
           if %errorlevel% neq 0 goto :cmEnd
           :cmEnd
           endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -186,15 +186,15 @@ events:
           if %errorlevel% neq 0 goto :VCEnd
           :VCEnd
         FinalizeBuildStatus:
-          Файл "cmTC_54642.dir\\Debug\\cmTC_54642.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_54642.dir\\Debug\\cmTC_54642.tlog\\cmTC_54642.lastbuildstate".
-        Сборка проекта "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cb1edm\\cmTC_54642.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_ff767.dir\\Debug\\cmTC_ff767.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_ff767.dir\\Debug\\cmTC_ff767.tlog\\cmTC_ff767.lastbuildstate".
+        Сборка проекта "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvqj32\\cmTC_ff767.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.73
+        Прошло времени 00:00:01.60
         
       exitCode: 0
   -
@@ -206,8 +206,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/\u0421\u0442\u043e\u043b/\u0424\u0430\u0439\u043b\u044b/\u0423\u0447\u0451\u0431\u0430/\u0412\u0443\u0437/host/build/CMakeFiles/CMakeScratch/TryCompile-etp630"
-      binary: "C:/\u0421\u0442\u043e\u043b/\u0424\u0430\u0439\u043b\u044b/\u0423\u0447\u0451\u0431\u0430/\u0412\u0443\u0437/host/build/CMakeFiles/CMakeScratch/TryCompile-etp630"
+      source: "C:/\u0421\u0442\u043e\u043b/\u0424\u0430\u0439\u043b\u044b/\u0423\u0447\u0451\u0431\u0430/\u0412\u0443\u0437/Arifmetic-coding/build/CMakeFiles/CMakeScratch/TryCompile-v4ojp3"
+      binary: "C:/\u0421\u0442\u043e\u043b/\u0424\u0430\u0439\u043b\u044b/\u0423\u0447\u0451\u0431\u0430/\u0412\u0443\u0437/Arifmetic-coding/build/CMakeFiles/CMakeScratch/TryCompile-v4ojp3"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       VCPKG_APPLOCAL_DEPS: "ON"
@@ -217,31 +217,31 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/CMakeScratch/TryCompile-etp630'
+        Change Dir: 'C:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build/CMakeFiles/CMakeScratch/TryCompile-v4ojp3'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3ca57.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_95bf7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.6.3+07e294721 for .NET Framework
-        Сборка начата 26.11.2023 22:48:42.
+        Сборка начата 28.11.2023 11:11:29.
         
-        Проект "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etp630\\cmTC_3ca57.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v4ojp3\\cmTC_95bf7.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
-          Создание каталога "cmTC_3ca57.dir\\Debug\\".
-          Создание каталога "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etp630\\Debug\\".
-          Создание каталога "cmTC_3ca57.dir\\Debug\\cmTC_3ca57.tlog\\".
+          Создание каталога "cmTC_95bf7.dir\\Debug\\".
+          Создание каталога "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v4ojp3\\Debug\\".
+          Создание каталога "cmTC_95bf7.dir\\Debug\\cmTC_95bf7.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_3ca57.dir\\Debug\\cmTC_3ca57.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Создание "cmTC_95bf7.dir\\Debug\\cmTC_95bf7.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3ca57.dir\\Debug\\\\" /Fd"cmTC_3ca57.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_95bf7.dir\\Debug\\\\" /Fd"cmTC_95bf7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32537 для x64
           CMakeCXXCompilerABI.cpp
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3ca57.dir\\Debug\\\\" /Fd"cmTC_3ca57.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_95bf7.dir\\Debug\\\\" /Fd"cmTC_95bf7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etp630\\Debug\\cmTC_3ca57.exe" /INCREMENTAL /ILK:"cmTC_3ca57.dir\\Debug\\cmTC_3ca57.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/CMakeScratch/TryCompile-etp630/Debug/cmTC_3ca57.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/CMakeScratch/TryCompile-etp630/Debug/cmTC_3ca57.lib" /MACHINE:X64  /machine:x64 cmTC_3ca57.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_3ca57.vcxproj -> C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etp630\\Debug\\cmTC_3ca57.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v4ojp3\\Debug\\cmTC_95bf7.exe" /INCREMENTAL /ILK:"cmTC_95bf7.dir\\Debug\\cmTC_95bf7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build/CMakeFiles/CMakeScratch/TryCompile-v4ojp3/Debug/cmTC_95bf7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build/CMakeFiles/CMakeScratch/TryCompile-v4ojp3/Debug/cmTC_95bf7.lib" /MACHINE:X64  /machine:x64 cmTC_95bf7.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_95bf7.vcxproj -> C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v4ojp3\\Debug\\cmTC_95bf7.exe
         PostBuildEvent:
           setlocal
-          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Стол/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Стол/Файлы/Учёба/Вуз/host/build/CMakeFiles/CMakeScratch/TryCompile-etp630/Debug/cmTC_3ca57.exe -installedDir C:/Стол/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Стол/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build/CMakeFiles/CMakeScratch/TryCompile-v4ojp3/Debug/cmTC_95bf7.exe -installedDir C:/Стол/vcpkg/installed/x64-windows/debug/bin -OutVariable out
           if %errorlevel% neq 0 goto :cmEnd
           :cmEnd
           endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -251,15 +251,15 @@ events:
           if %errorlevel% neq 0 goto :VCEnd
           :VCEnd
         FinalizeBuildStatus:
-          Файл "cmTC_3ca57.dir\\Debug\\cmTC_3ca57.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_3ca57.dir\\Debug\\cmTC_3ca57.tlog\\cmTC_3ca57.lastbuildstate".
-        Сборка проекта "C:\\Стол\\Файлы\\Учёба\\Вуз\\host\\build\\CMakeFiles\\CMakeScratch\\TryCompile-etp630\\cmTC_3ca57.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_95bf7.dir\\Debug\\cmTC_95bf7.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_95bf7.dir\\Debug\\cmTC_95bf7.tlog\\cmTC_95bf7.lastbuildstate".
+        Сборка проекта "C:\\Стол\\Файлы\\Учёба\\Вуз\\Arifmetic-coding\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v4ojp3\\cmTC_95bf7.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.75
+        Прошло времени 00:00:01.72
         
       exitCode: 0
 ...

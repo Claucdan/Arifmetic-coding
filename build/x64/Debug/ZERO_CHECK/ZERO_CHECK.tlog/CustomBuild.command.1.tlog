@@ -1,6 +1,6 @@
-^C:\СТОЛ\ФАЙЛЫ\УЧЁБА\ВУЗ\HOST\BUILD\CMAKEFILES\2B67F4E4E3CD4518CA00CFB48FEF12D9\GENERATE.STAMP.RULE
+^C:\СТОЛ\ФАЙЛЫ\УЧЁБА\ВУЗ\ARIFMETIC-CODING\BUILD\CMAKEFILES\E3AAB67A9BE7D8A7F53D3A9260918412\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Стол/Файлы/Учёба/Вуз/host -BC:/Стол/Файлы/Учёба/Вуз/host/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Стол/Файлы/Учёба/Вуз/host/build/first.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding -BC:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Стол/Файлы/Учёба/Вуз/Arifmetic-coding/build/first.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
